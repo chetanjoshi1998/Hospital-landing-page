@@ -1,0 +1,74 @@
+
+.card{
+    display: flex;
+    box-sizing: border-box;
+    width: 300px;
+    max-width: 300px;
+    height: 175px;
+background-color: #ffffff;
+margin-top: 20px;
+border-radius: 5px;
+
+}
+.consult-title p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: black;
+}
+.card img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.docConsult-title{
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.Doc_name p{
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 700;
+    color: black;
+    margin-left: 20px;
+}
+.Doc_name{
+    margin-top: 10px;
+}
+.Doc_speciality{
+    margin-top: 10px;
+}
+.Doc_speciality p{
+    font-size: 10px;
+    line-height: 8px;
+    font-weight: 700;
+    color: rgba(28, 29, 29, 0.733);
+    margin-left: 20px;
+}
+.docConsult-title button{
+    width: 70px;
+    height: 25px;
+    margin-top: 20px;
+   
+    background: transparent;
+    border: 1px solid rgba(28, 29, 29, 0.733);
+    border-radius: 5px;
+    
+ 
+}
+.reshed button{
+    background-color: rgb(67,215,221);
+    margin-left: 10px;
+
+}
+.buttons{
+    display: flex;
+}
+.date{
+    background:transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+}

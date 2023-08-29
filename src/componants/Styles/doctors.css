@@ -1,0 +1,78 @@
+.container{
+    box-sizing: border-box;
+    max-width: 700px;
+    width: 700px;
+    height: 350px;
+    margin-left: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.wrapper{
+    display: inline-flex;
+    margin-left: 25px;
+}
+.doc-title{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 700;
+}
+.wrapper button{
+    background: transparent;
+    border: none;
+   margin-left: 350px;
+}
+.wrapper button p{
+    margin-top: 10px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    cursor: pointer;
+}
+/* .DocName{
+   box-sizing: border-box;
+   width: 750px;
+   height: 350px;
+   background-color:#ffffff;
+   margin-left: 25px;
+} */
+.doc-card{
+    
+    display: inline-flex;
+    box-sizing: border-box;
+    height: 125px;
+    width: 300px;
+    background-color:rgb(231,233,235,0.5);
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    
+}
+.card_info{
+    display: flex;
+}
+.card_info p{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.card_info img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.doc_name{
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 700;
+    color: black;
+}
+.speciality{
+    font-size: 10px;
+    line-height: 5px;
+    font-weight: 700;
+    color: rgba(28, 29, 29, 0.733);
+}

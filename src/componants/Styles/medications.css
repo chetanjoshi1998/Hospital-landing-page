@@ -1,0 +1,48 @@
+
+
+.wrap{
+    box-sizing: border-box;
+    height: 350px;
+    max-height: 400px;
+    width: 300px;
+    max-width: 350px;
+    border: 2px solid black;
+    margin-left: 40px;
+    border-radius: 5px;
+    background-color: #ffffff;
+   
+    
+}
+.medtitle{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.medtitle p{
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 700;
+    color: black;
+
+}
+.medname{
+    margin-top: 40px;
+}
+.medname p{
+    font-size: 14px;
+    line-height: 8px;
+    font-weight: 600;
+    color: black;
+
+}
+.description p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 6px;
+    font-weight: 700;
+    color: rgba(28, 29, 29, 0.733);
+
+}
+.med{
+    margin-left: 20px;
+}

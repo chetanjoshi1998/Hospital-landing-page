@@ -1,0 +1,69 @@
+
+
+.title{box-sizing: border-box;
+    display: inline-flex;
+    /* width: 250px;
+    height: 250px; */
+  
+    margin-left: 25px;
+
+}
+.title p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 12px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.all-products{
+    display: inline;
+    align-items: end;
+    margin-left: 25px;
+}
+.all-products button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    
+
+}
+.all-products button p{
+font-size: 12px;
+font-weight: 600;
+color: blue;
+}
+.details{
+    display: flex;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 300px;
+    max-width: 400px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.details img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.mediname{
+    font-size: 12px;
+    line-height: 8px;
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.val1 ,.val2{
+    font-size: 11px;
+    line-height: 7px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgba(33, 33, 34, 0.644);
+
+}
